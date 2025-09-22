@@ -4,9 +4,8 @@
   "description": "Thu fashion website with admin backend",
   "main": "server.js",
   "scripts": {
-    "start": "node test-server.js",
-    "dev": "node server.js",
-    "prod": "node server.js"
+    "start": "node server.js",
+    "dev": "node server.js"
   },
   "dependencies": {
     "bcryptjs": "^3.0.2",
