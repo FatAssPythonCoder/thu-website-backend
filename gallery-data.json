@@ -2,83 +2,83 @@
   "galleryData": [
     {
       "id": 1,
-      "path": "assets/gallery/bg-img2.JPG",
+      "path": "/assets/gallery/bg-img2.JPG",
       "price": "$0.00",
       "status": "sold",
       "images": [
-        "assets/gallery/bg-img2.JPG",
-        "assets/gallery/bg-img.JPG",
-        "assets/gallery/bg-img8.JPG"
+        "/assets/gallery/bg-img2.JPG",
+        "/assets/gallery/bg-img.JPG",
+        "/assets/gallery/bg-img8.JPG"
       ]
     },
     {
       "id": 2,
-      "path": "assets/gallery/bg-img4.JPG",
+      "path": "/assets/gallery/bg-img4.JPG",
       "images": [
-        "assets/gallery/bg-img4.JPG"
+        "/assets/gallery/bg-img4.JPG"
       ],
       "price": "$0.00",
       "status": "sold"
     },
     {
       "id": 3,
-      "path": "assets/gallery/bg-img5.JPG",
+      "path": "/assets/gallery/bg-img5.JPG",
       "images": [
-        "assets/gallery/bg-img5.JPG"
+        "/assets/gallery/bg-img5.JPG"
       ],
       "price": "$0.00",
       "status": "sold"
     },
     {
       "id": 4,
-      "path": "assets/gallery/bg-img10.JPG",
+      "path": "/assets/gallery/bg-img10.JPG",
       "images": [
-        "assets/gallery/bg-img10.JPG",
-        "assets/gallery/bg-img9.JPG"
+        "/assets/gallery/bg-img10.JPG",
+        "/assets/gallery/bg-img9.JPG"
       ],
       "price": "$0.00",
       "status": "sold"
     },
     {
       "id": 5,
-      "path": "assets/gallery/bg-img11.JPG",
+      "path": "/assets/gallery/bg-img11.JPG",
       "images": [
-        "assets/gallery/bg-img11.JPG",
-        "assets/gallery/bg-img6.JPG"
+        "/assets/gallery/bg-img11.JPG",
+        "/assets/gallery/bg-img6.JPG"
       ],
       "price": "$0.00",
       "status": "sold"
     },
     {
       "id": 6,
-      "path": "assets/gallery/bg-img13.jpg",
+      "path": "/assets/gallery/bg-img13.jpg",
       "images": [
-        "assets/gallery/bg-img13.jpg",
-        "assets/gallery/bg-img12.JPG",
-        "assets/gallery/bg-img3.JPG",
-        "assets/gallery/bg-img1.JPG"
+        "/assets/gallery/bg-img13.jpg",
+        "/assets/gallery/bg-img12.JPG",
+        "/assets/gallery/bg-img3.JPG",
+        "/assets/gallery/bg-img1.JPG"
       ],
       "price": "$0.00",
       "status": "sold"
     },
     {
       "id": 7,
-      "path": "assets/gallery/uploaded-1758398665173.jpg",
+      "path": "/assets/gallery/uploaded-1758398665173.jpg",
       "images": [
-        "assets/gallery/uploaded-1758398665173.jpg",
-        "assets/gallery/bg-img15.jpg"
+        "/assets/gallery/uploaded-1758398665173.jpg",
+        "/assets/gallery/bg-img15.jpg"
       ],
       "price": "$0.00",
       "status": "sold"
     },
     {
       "id": 8,
-      "path": "assets/gallery/bg-img17.jpg",
+      "path": "/assets/gallery/bg-img17.jpg",
       "price": "$0.00",
       "status": "sold",
       "images": [
-        "assets/gallery/bg-img17.jpg",
-        "assets/gallery/bg-img16.jpg"
+        "/assets/gallery/bg-img17.jpg",
+        "/assets/gallery/bg-img16.jpg"
       ]
     }
   ],
