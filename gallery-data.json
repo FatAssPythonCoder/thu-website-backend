@@ -51,9 +51,9 @@
     },
     {
       "id": 6,
-      "path": "https://raw.githubusercontent.com/FatAssPythonCoder/thu-website-frontend/main/bg-img13.jpg",
+      "path": "https://raw.githubusercontent.com/FatAssPythonCoder/thu-website-frontend/main/bg-img13.JPG",
       "images": [
-        "https://raw.githubusercontent.com/FatAssPythonCoder/thu-website-frontend/main/bg-img13.jpg",
+        "https://raw.githubusercontent.com/FatAssPythonCoder/thu-website-frontend/main/bg-img13.JPG",
         "https://raw.githubusercontent.com/FatAssPythonCoder/thu-website-frontend/main/bg-img12.JPG",
         "https://raw.githubusercontent.com/FatAssPythonCoder/thu-website-frontend/main/bg-img3.JPG",
         "https://raw.githubusercontent.com/FatAssPythonCoder/thu-website-frontend/main/bg-img1.JPG"
@@ -66,19 +66,19 @@
       "path": "https://raw.githubusercontent.com/FatAssPythonCoder/thu-website-frontend/main/uploaded-1758398665173.jpg",
       "images": [
         "https://raw.githubusercontent.com/FatAssPythonCoder/thu-website-frontend/main/uploaded-1758398665173.jpg",
-        "https://raw.githubusercontent.com/FatAssPythonCoder/thu-website-frontend/main/bg-img15.jpg"
+        "https://raw.githubusercontent.com/FatAssPythonCoder/thu-website-frontend/main/bg-img15.JPG"
       ],
       "price": "$0.00",
       "status": "sold"
     },
     {
       "id": 8,
-      "path": "https://raw.githubusercontent.com/FatAssPythonCoder/thu-website-frontend/main/bg-img17.jpg",
+      "path": "https://raw.githubusercontent.com/FatAssPythonCoder/thu-website-frontend/main/bg-img17.JPG",
       "price": "$0.00",
       "status": "sold",
       "images": [
-        "https://raw.githubusercontent.com/FatAssPythonCoder/thu-website-frontend/main/bg-img17.jpg",
-        "https://raw.githubusercontent.com/FatAssPythonCoder/thu-website-frontend/main/bg-img16.jpg"
+        "https://raw.githubusercontent.com/FatAssPythonCoder/thu-website-frontend/main/bg-img17.JPG",
+        "https://raw.githubusercontent.com/FatAssPythonCoder/thu-website-frontend/main/bg-img16.JPG"
       ]
     }
   ],
