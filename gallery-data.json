@@ -2,83 +2,83 @@
   "galleryData": [
     {
       "id": 1,
-      "path": "bg-img2.JPG",
+      "path": "https://raw.githubusercontent.com/FatAssPythonCoder/thu-website-frontend/main/bg-img2.JPG",
       "price": "$0.00",
       "status": "sold",
       "images": [
-        "bg-img2.JPG",
-        "bg-img.JPG",
-        "bg-img8.JPG"
+        "https://raw.githubusercontent.com/FatAssPythonCoder/thu-website-frontend/main/bg-img2.JPG",
+        "https://raw.githubusercontent.com/FatAssPythonCoder/thu-website-frontend/main/bg-img.JPG",
+        "https://raw.githubusercontent.com/FatAssPythonCoder/thu-website-frontend/main/bg-img8.JPG"
       ]
     },
     {
       "id": 2,
-      "path": "bg-img4.JPG",
+      "path": "https://raw.githubusercontent.com/FatAssPythonCoder/thu-website-frontend/main/bg-img4.JPG",
       "images": [
-        "bg-img4.JPG"
+        "https://raw.githubusercontent.com/FatAssPythonCoder/thu-website-frontend/main/bg-img4.JPG"
       ],
       "price": "$0.00",
       "status": "sold"
     },
     {
       "id": 3,
-      "path": "bg-img5.JPG",
+      "path": "https://raw.githubusercontent.com/FatAssPythonCoder/thu-website-frontend/main/bg-img5.JPG",
       "images": [
-        "bg-img5.JPG"
+        "https://raw.githubusercontent.com/FatAssPythonCoder/thu-website-frontend/main/bg-img5.JPG"
       ],
       "price": "$0.00",
       "status": "sold"
     },
     {
       "id": 4,
-      "path": "bg-img10.JPG",
+      "path": "https://raw.githubusercontent.com/FatAssPythonCoder/thu-website-frontend/main/bg-img10.JPG",
       "images": [
-        "bg-img10.JPG",
-        "bg-img9.JPG"
+        "https://raw.githubusercontent.com/FatAssPythonCoder/thu-website-frontend/main/bg-img10.JPG",
+        "https://raw.githubusercontent.com/FatAssPythonCoder/thu-website-frontend/main/bg-img9.JPG"
       ],
       "price": "$0.00",
       "status": "sold"
     },
     {
       "id": 5,
-      "path": "bg-img11.JPG",
+      "path": "https://raw.githubusercontent.com/FatAssPythonCoder/thu-website-frontend/main/bg-img11.JPG",
       "images": [
-        "bg-img11.JPG",
-        "bg-img6.JPG"
+        "https://raw.githubusercontent.com/FatAssPythonCoder/thu-website-frontend/main/bg-img11.JPG",
+        "https://raw.githubusercontent.com/FatAssPythonCoder/thu-website-frontend/main/bg-img6.JPG"
       ],
       "price": "$0.00",
       "status": "sold"
     },
     {
       "id": 6,
-      "path": "bg-img13.jpg",
+      "path": "https://raw.githubusercontent.com/FatAssPythonCoder/thu-website-frontend/main/bg-img13.jpg",
       "images": [
-        "bg-img13.jpg",
-        "bg-img12.JPG",
-        "bg-img3.JPG",
-        "bg-img1.JPG"
+        "https://raw.githubusercontent.com/FatAssPythonCoder/thu-website-frontend/main/bg-img13.jpg",
+        "https://raw.githubusercontent.com/FatAssPythonCoder/thu-website-frontend/main/bg-img12.JPG",
+        "https://raw.githubusercontent.com/FatAssPythonCoder/thu-website-frontend/main/bg-img3.JPG",
+        "https://raw.githubusercontent.com/FatAssPythonCoder/thu-website-frontend/main/bg-img1.JPG"
       ],
       "price": "$0.00",
       "status": "sold"
     },
     {
       "id": 7,
-      "path": "uploaded-1758398665173.jpg",
+      "path": "https://raw.githubusercontent.com/FatAssPythonCoder/thu-website-frontend/main/uploaded-1758398665173.jpg",
       "images": [
-        "uploaded-1758398665173.jpg",
-        "bg-img15.jpg"
+        "https://raw.githubusercontent.com/FatAssPythonCoder/thu-website-frontend/main/uploaded-1758398665173.jpg",
+        "https://raw.githubusercontent.com/FatAssPythonCoder/thu-website-frontend/main/bg-img15.jpg"
       ],
       "price": "$0.00",
       "status": "sold"
     },
     {
       "id": 8,
-      "path": "bg-img17.jpg",
+      "path": "https://raw.githubusercontent.com/FatAssPythonCoder/thu-website-frontend/main/bg-img17.jpg",
       "price": "$0.00",
       "status": "sold",
       "images": [
-        "bg-img17.jpg",
-        "bg-img16.jpg"
+        "https://raw.githubusercontent.com/FatAssPythonCoder/thu-website-frontend/main/bg-img17.jpg",
+        "https://raw.githubusercontent.com/FatAssPythonCoder/thu-website-frontend/main/bg-img16.jpg"
       ]
     }
   ],
