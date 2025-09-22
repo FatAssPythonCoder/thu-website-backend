@@ -1,0 +1,86 @@
+{
+  "galleryData": [
+    {
+      "id": 1,
+      "path": "assets/gallery/bg-img2.JPG",
+      "price": "$0.00",
+      "status": "sold",
+      "images": [
+        "assets/gallery/bg-img2.JPG",
+        "assets/gallery/bg-img.JPG",
+        "assets/gallery/bg-img8.JPG"
+      ]
+    },
+    {
+      "id": 2,
+      "path": "assets/gallery/bg-img4.JPG",
+      "images": [
+        "assets/gallery/bg-img4.JPG"
+      ],
+      "price": "$0.00",
+      "status": "sold"
+    },
+    {
+      "id": 3,
+      "path": "assets/gallery/bg-img5.JPG",
+      "images": [
+        "assets/gallery/bg-img5.JPG"
+      ],
+      "price": "$0.00",
+      "status": "sold"
+    },
+    {
+      "id": 4,
+      "path": "assets/gallery/bg-img10.JPG",
+      "images": [
+        "assets/gallery/bg-img10.JPG",
+        "assets/gallery/bg-img9.JPG"
+      ],
+      "price": "$0.00",
+      "status": "sold"
+    },
+    {
+      "id": 5,
+      "path": "assets/gallery/bg-img11.JPG",
+      "images": [
+        "assets/gallery/bg-img11.JPG",
+        "assets/gallery/bg-img6.JPG"
+      ],
+      "price": "$0.00",
+      "status": "sold"
+    },
+    {
+      "id": 6,
+      "path": "assets/gallery/bg-img13.jpg",
+      "images": [
+        "assets/gallery/bg-img13.jpg",
+        "assets/gallery/bg-img12.jpg",
+        "assets/gallery/bg-img3.jpg",
+        "assets/gallery/bg-img1.jpg"
+      ],
+      "price": "$0.00",
+      "status": "sold"
+    },
+    {
+      "id": 7,
+      "path": "assets/gallery/uploaded-1758398665173.jpg",
+      "images": [
+        "assets/gallery/uploaded-1758398665173.jpg",
+        "assets/gallery/bg-img15.jpg"
+      ],
+      "price": "$0.00",
+      "status": "sold"
+    },
+    {
+      "id": 8,
+      "path": "assets/gallery/bg-img17.jpg",
+      "price": "$0.00",
+      "status": "sold",
+      "images": [
+        "assets/gallery/bg-img17.jpg",
+        "assets/gallery/bg-img16.jpg"
+      ]
+    }
+  ],
+  "lastUpdated": "2025-09-22T09:30:35.209Z"
+}
