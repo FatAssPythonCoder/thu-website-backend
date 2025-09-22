@@ -568,13 +568,18 @@ function startServer() {
   // Railway will provide the PORT environment variable
   const port = process.env.PORT || 3000;
   
-  app.listen(port, '0.0.0.0', () => {
-    console.log(`🚀 Server running on port ${port}`);
-    console.log(`📱 Admin interface: /admin-login.html`);
-    console.log(`🌐 Website: /index.html`);
-    console.log(`🛍️ Collections: /collections.html`);
-    console.log(`🔧 Health check: /api/health`);
-  });
+  try {
+    app.listen(port, '0.0.0.0', () => {
+      console.log(`🚀 Server running on port ${port}`);
+      console.log(`📱 Admin interface: /admin-login.html`);
+      console.log(`🌐 Website: /index.html`);
+      console.log(`🛍️ Collections: /collections.html`);
+      console.log(`🔧 Health check: /api/health`);
+    });
+  } catch (error) {
+    console.error('❌ Failed to start server:', error);
+    process.exit(1);
+  }
 }
 
 
