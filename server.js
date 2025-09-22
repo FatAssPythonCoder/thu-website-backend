@@ -564,29 +564,20 @@ app.post('/api/upload', strictLimiter, requireAuth, upload.single('image'), (req
 
 // Start server with HTTPS support
 function startServer() {
-  // Vercel handles the serverless functions
   const port = process.env.PORT || 3000;
   
-  if (process.env.NODE_ENV === 'production') {
-    // Vercel will handle this automatically
-    console.log('🚀 Server ready for Vercel deployment');
-  } else {
-    // Local development
-    app.listen(port, () => {
-      console.log(`🚀 Server running on port ${port}`);
-      console.log(`📱 Admin interface: http://localhost:${port}/admin-login.html`);
-      console.log(`🌐 Website: http://localhost:${port}/index.html`);
-      console.log(`🛍️ Collections: http://localhost:${port}/collections.html`);
-      console.log(`🔧 Health check: http://localhost:${port}/api/health`);
-    });
-  }
+  app.listen(port, () => {
+    console.log(`🚀 Server running on port ${port}`);
+    console.log(`📱 Admin interface: /admin-login.html`);
+    console.log(`🌐 Website: /index.html`);
+    console.log(`🛍️ Collections: /collections.html`);
+    console.log(`🔧 Health check: /api/health`);
+  });
 }
 
 
 // Export for Vercel
 module.exports = app;
 
-// Start server for local development
-if (process.env.NODE_ENV !== 'production') {
-  startServer();
-}
+// Start server
+startServer();
