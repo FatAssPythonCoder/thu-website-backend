@@ -51,9 +51,9 @@
     },
     {
       "id": 6,
-      "path": "https://thu-website-frontend.pages.dev/bg-img13.JPG",
+      "path": "https://thu-website-frontend.pages.dev/bg-img13.jpg",
       "images": [
-        "https://thu-website-frontend.pages.dev/bg-img13.JPG",
+        "https://thu-website-frontend.pages.dev/bg-img13.jpg",
         "https://thu-website-frontend.pages.dev/bg-img12.JPG",
         "https://thu-website-frontend.pages.dev/bg-img3.JPG",
         "https://thu-website-frontend.pages.dev/bg-img1.JPG"
@@ -63,22 +63,22 @@
     },
     {
       "id": 7,
-      "path": "https://thu-website-frontend.pages.dev/uploaded-1758398665173.JPG",
+      "path": "https://thu-website-frontend.pages.dev/uploaded-1758398665173.jpg",
       "images": [
-        "https://thu-website-frontend.pages.dev/uploaded-1758398665173.JPG",
-        "https://thu-website-frontend.pages.dev/bg-img15.JPG"
+        "https://thu-website-frontend.pages.dev/uploaded-1758398665173.jpg",
+        "https://thu-website-frontend.pages.dev/bg-img15.jpg"
       ],
       "price": "$299",
       "status": "available"
     },
     {
       "id": 8,
-      "path": "https://thu-website-frontend.pages.dev/bg-img17.JPG",
+      "path": "https://thu-website-frontend.pages.dev/bg-img17.jpg",
       "price": "$299",
       "status": "available",
       "images": [
-        "https://thu-website-frontend.pages.dev/bg-img17.JPG",
-        "https://thu-website-frontend.pages.dev/bg-img16.JPG"
+        "https://thu-website-frontend.pages.dev/bg-img17.jpg",
+        "https://thu-website-frontend.pages.dev/bg-img16.jpg"
       ]
     }
   ],
