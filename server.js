@@ -90,7 +90,14 @@ const upload = multer({
 
 // Middleware
 app.use(cors({
-  origin: process.env.ALLOWED_ORIGINS ? process.env.ALLOWED_ORIGINS.split(',') : ['http://localhost:3000', 'http://127.0.0.1:3000'],
+  origin: process.env.ALLOWED_ORIGINS ? process.env.ALLOWED_ORIGINS.split(',') : [
+    'http://localhost:3000', 
+    'http://127.0.0.1:3000',
+    'https://phuongthustudio.com',
+    'https://www.phuongthustudio.com',
+    'https://phuongthu.pages.dev',
+    'https://thu-website-backend-ught.vercel.app'
+  ],
   credentials: true,
   methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
   allowedHeaders: ['Content-Type', 'Authorization', 'X-Requested-With']
@@ -155,6 +162,20 @@ app.get('/api/auth/status', (req, res) => {
   res.json({ 
     authenticated: !!(req.session && req.session.authenticated),
     username: req.session?.username || null
+  });
+});
+
+// Root endpoint
+app.get('/', (req, res) => {
+  res.json({ 
+    message: 'Thu Website Backend API is running!',
+    status: 'OK',
+    endpoints: {
+      health: '/api/health',
+      gallery: '/api/gallery',
+      playlist: '/api/playlist',
+      admin: '/admin-login.html'
+    }
   });
 });
 
