@@ -96,7 +96,8 @@ app.use(cors({
     'https://phuongthustudio.com',
     'https://www.phuongthustudio.com',
     'https://phuongthu.pages.dev',
-    'https://thu-website-backend-ught.vercel.app'
+    'https://thu-website-backend-ught.vercel.app',
+    'https://thu-website-frontend.pages.dev'
   ],
   credentials: true,
   methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
