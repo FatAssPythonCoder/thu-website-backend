@@ -564,46 +564,18 @@ app.post('/api/upload', strictLimiter, requireAuth, upload.single('image'), (req
 
 // Start server with HTTPS support
 function startServer() {
-  const isProduction = process.env.NODE_ENV === 'production';
-  const httpsEnabled = process.env.HTTPS_ENABLED === 'true';
+  // Railway handles HTTPS automatically, so we just need HTTP server
+  // Railway will provide the PORT environment variable
+  const port = process.env.PORT || 3000;
   
-  if (isProduction && httpsEnabled) {
-    // Production HTTPS server
-    const sslCertPath = process.env.SSL_CERT_PATH;
-    const sslKeyPath = process.env.SSL_KEY_PATH;
-    
-    if (sslCertPath && sslKeyPath && fs.existsSync(sslCertPath) && fs.existsSync(sslKeyPath)) {
-      const options = {
-        cert: fs.readFileSync(sslCertPath),
-        key: fs.readFileSync(sslKeyPath)
-      };
-      
-      https.createServer(options, app).listen(PORT, () => {
-        console.log(`🚀 HTTPS Server running at https://phuongthustudio.com:${PORT}`);
-        console.log(`📱 Admin interface: https://phuongthustudio.com:${PORT}/admin-login.html`);
-        console.log(`🌐 Website: https://phuongthustudio.com:${PORT}/index.html`);
-        console.log(`🛍️ Collections: https://phuongthustudio.com:${PORT}/collections.html`);
-      });
-    } else {
-      console.log('⚠️  HTTPS enabled but SSL certificates not found. Starting HTTP server...');
-      startHttpServer();
-    }
-  } else {
-    // Development HTTP server
-    startHttpServer();
-  }
-}
-
-function startHttpServer() {
-  app.listen(PORT, () => {
-    const protocol = process.env.NODE_ENV === 'production' ? 'https' : 'http';
-    const domain = process.env.NODE_ENV === 'production' ? 'phuongthustudio.com' : 'localhost';
-    
-    console.log(`🚀 Server running at ${protocol}://${domain}:${PORT}`);
-    console.log(`📱 Admin interface: ${protocol}://${domain}:${PORT}/admin-login.html`);
-    console.log(`🌐 Website: ${protocol}://${domain}:${PORT}/index.html`);
-    console.log(`🛍️ Collections: ${protocol}://${domain}:${PORT}/collections.html`);
+  app.listen(port, '0.0.0.0', () => {
+    console.log(`🚀 Server running on port ${port}`);
+    console.log(`📱 Admin interface: /admin-login.html`);
+    console.log(`🌐 Website: /index.html`);
+    console.log(`🛍️ Collections: /collections.html`);
+    console.log(`🔧 Health check: /api/health`);
   });
 }
+
 
 startServer();
